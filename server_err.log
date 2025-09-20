@@ -1,0 +1,57 @@
+Watching for file changes with StatReloader
+2025-09-20 13:32:40.897596: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2025-09-20 13:32:47.072835: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2025-09-20 13:32:52.116692: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: SSE3 SSE4.1 SSE4.2 AVX AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+D:\CMR\Hackathon\Project\chat\views.py changed, reloading.
+INFO:django.utils.autoreload:D:\CMR\Hackathon\Project\chat\views.py changed, reloading.
+Watching for file changes with StatReloader
+2025-09-20 13:47:07.935167: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2025-09-20 13:47:14.063472: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2025-09-20 13:47:17.775814: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: SSE3 SSE4.1 SSE4.2 AVX AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+D:\CMR\Hackathon\Project\chat\views.py changed, reloading.
+INFO:django.utils.autoreload:D:\CMR\Hackathon\Project\chat\views.py changed, reloading.
+Watching for file changes with StatReloader
+2025-09-20 13:48:33.269092: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2025-09-20 13:48:37.633334: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2025-09-20 13:48:41.215918: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: SSE3 SSE4.1 SSE4.2 AVX AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+D:\CMR\Hackathon\Project\chat\views.py changed, reloading.
+INFO:django.utils.autoreload:D:\CMR\Hackathon\Project\chat\views.py changed, reloading.
+Watching for file changes with StatReloader
+2025-09-20 13:48:56.205144: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2025-09-20 13:49:01.702971: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2025-09-20 13:49:06.137828: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: SSE3 SSE4.1 SSE4.2 AVX AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+D:\CMR\Hackathon\Project\chat\views.py changed, reloading.
+INFO:django.utils.autoreload:D:\CMR\Hackathon\Project\chat\views.py changed, reloading.
+Watching for file changes with StatReloader
+2025-09-20 13:49:58.621506: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2025-09-20 13:50:04.421242: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2025-09-20 13:50:09.143988: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: SSE3 SSE4.1 SSE4.2 AVX AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+Not Found: /ws/chat/100/101/
+WARNING:django.request:Not Found: /ws/chat/100/101/
+Not Found: /ws/chat/101/100/
+[20/Sep/2025 13:54:50] "GET /ws/chat/100/101/ HTTP/1.1" 404 2370
+WARNING:django.request:Not Found: /ws/chat/101/100/
+[20/Sep/2025 13:54:50] "GET /ws/chat/101/100/ HTTP/1.1" 404 2370
+Not Found: /ws/presence/shivani/
+WARNING:django.request:Not Found: /ws/presence/shivani/
+[20/Sep/2025 14:04:39] "GET /ws/presence/shivani/ HTTP/1.1" 404 2382
+Not Found: /ws/presence/shivani/
+WARNING:django.request:Not Found: /ws/presence/shivani/
+[20/Sep/2025 14:05:16] "GET /ws/presence/shivani/ HTTP/1.1" 404 2382
+Not Found: /ws/presence/shivani/
+WARNING:django.request:Not Found: /ws/presence/shivani/
+[20/Sep/2025 14:09:36] "GET /ws/presence/shivani/ HTTP/1.1" 404 2382
+Not Found: /ws/presence/sam/
+WARNING:django.request:Not Found: /ws/presence/sam/
+[20/Sep/2025 14:09:40] "GET /ws/presence/sam/ HTTP/1.1" 404 2370
+[20/Sep/2025 14:09:40,667] - Broken pipe from ('127.0.0.1', 60413)

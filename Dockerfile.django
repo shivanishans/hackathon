@@ -1,0 +1,21 @@
+FROM python:3.11-slim
+
+ENV PYTHONDONTWRITEBYTECODE 1
+ENV PYTHONUNBUFFERED 1
+
+WORKDIR /app
+
+# system deps
+RUN apt-get update && apt-get install -y build-essential gcc libpq-dev curl && rm -rf /var/lib/apt/lists/*
+
+# install poetry/pip requirements - assume requirements.txt or use pip install
+COPY requirements.txt /app/requirements.txt
+RUN pip install --upgrade pip && pip install -r /app/requirements.txt
+
+# copy project
+COPY . /app
+
+# collect static if needed
+# RUN python manage.py collectstatic --no-input
+
+CMD ["daphne", "-b", "0.0.0.0", "-p", "8000", "mysite.asgi:application"]

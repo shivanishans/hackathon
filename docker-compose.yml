@@ -1,0 +1,42 @@
+version: '3.8'
+
+services:
+  redis:
+    image: redis:6.2-alpine
+    restart: unless-stopped
+    ports:
+      - '6379:6379'
+
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile.django
+    command: daphne -b 0.0.0.0 -p 8000 mysite.asgi:application
+    volumes:
+      - .:/app
+    env_file:
+      - .env
+    environment:
+      - REDIS_URL=redis://redis:6379/0
+    ports:
+      - '8000:8000'
+    depends_on:
+      - redis
+
+  frontend:
+    build:
+      context: ./react-chat-frontend
+      dockerfile: Dockerfile.frontend
+    environment:
+      - CHOKIDAR_USEPOLLING=true
+      - FAST_REFRESH=true
+    ports:
+      - '3000:3000'
+    stdin_open: true
+    tty: true
+    volumes:
+      - ./react-chat-frontend:/usr/src/app
+    depends_on:
+      - web
+
+# For production you'd add a reverse proxy (nginx) and static file serving
